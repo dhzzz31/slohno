@@ -16,5 +16,12 @@ namespace slozhnoe_zadanie
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+            this.Hide();
+        }
     }
 }
